@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VAST Challenge 2019 MC 3</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/mini_bar.js"></script>
+    <script src="scripts/un_regions.js"></script>
+    <script src="scripts/bubbles.js"></script>
+    <script src="scripts/sentiment_line.js"></script>
+    <script src="scripts/resource_linechart.js"></script>
+    <script src="scripts/index1.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>VAST Challenge 2019 MC 3: Voice from the People</h1>
+    </header>
+    <nav>
+      <ul id="nav-tab">
+        <li id="resources-btn">Resources</li>
+        <li id="sentiment-btn">Sentiment</li>
+        <!--li id="communications-btn">Communications</li-->
+      </ul>
+    </nav>
+    <div id="main">
+      <div id="map-col" class="tab-content left">
+        <div id="map-card" class="card">
+          <ul id="map-controls" class="sub-card no-mark">
+            <li>
+              <label class="checkbox">
+                <input type="checkbox" id="roads-cb" checked />
+                <span>Roads</span>
+              </label>
+            </li>
+            <li>
+              <label class="checkbox">
+                <input type="checkbox" id="landmarks-cb" checked />
+                <span>Landmarks</span>
+              </label>
+            </li>
+            <li>
+              <select
+                id="sentiment-opts"
+                class="tab-content sentiment"
+                selected="Positive"
+              >
+                <option value="Positive">Positive</option>
+                <option value="Negative">Negative</option>
+                <option value="Neutral">Neutral</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <div id="resource-timeline" class="card tab-content resources">
+          <h2>Resource Timeline</h2>
+          <svg></svg>
+        </div>
+        <div id="sentiment-timeline" class="card tab-content sentiment">
+          <label class="checkbox" id="sentiment-line-control">
+            <input type="checkbox" id="emotions-cb" />
+            <span>All</span>
+          </label>
+          <h2>Sentiment Timeline</h2>
+          <svg></svg>
+        </div>
+      </div>
+      <div id="tab-col" class="right">
+        <div class="tab-content resources">
+          <div id="select-controls" class="card">
+            <h2>Controls to select which resource to show</h2>
+            <ul></ul>
+            <svg></svg>
+          </div>
+          <div id="pie-chart" class="card">
+            <h2>LDA Resource Distribution</h2>
+            <svg></svg>
+          </div>
+          <div id="line-chart1" class="card">
+            <h2>LDA Resource Analysis</h2>
+            <svg></svg>
+          </div>
+        </div>
+        <div class="tab-content sentiment">
+          <div id="flow-diagram" class="card">
+            <h2>Flow diagram</h2>
+            <svg></svg>
+          </div>
+          <div id="sentiment-bubbles" class="card">
+            <h2>Messages by Neighborhood</h2>
+            <svg></svg>
+          </div>
+        </div>
+        <div class="tab-content communications">
+          <div id="user-interaction-network" class="card">
+            <h2>User Interaction Network</h2>
+            <svg></svg>
+          </div>
+          <div id="select-controls" class="card">
+            <h2>Controls, filters, etc.</h2>
+          </div>
+          <div id="retweets-layout" class="card">
+            <h2>Top Retweets</h2>
+            <svg></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hover-tip" style="display: none">
+      <h4></h4>
+      <t></t>
+      <svg id="minibar" style="display: none"></svg>
+    </div>
+    <footer>
+      <h3>
+        Jitesh Pabla, Debarshi Roy, Shivank Tiwari, Danielle Jacobs, Chirra
+        Reddy Sai Sankeerth Reddy, Adam Brossman
+      </h3>
+    </footer>
+  </body>
+</html>

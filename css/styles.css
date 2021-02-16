@@ -1,0 +1,226 @@
+:root {
+  --dark-color: #2a3345;
+  --offset-color: #545b66;
+  --light-color: #f5f1f4;
+  --main-color: #17c0e6;
+  --radius: 1.5vmin;
+}
+
+html {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: var(--dark-color);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  color: var(--light-color);
+  text-align: center;
+}
+
+footer {
+  border-top: 0.5vh solid var(--offset-color);
+
+  flex-shrink: 0;
+
+  width: 100%;
+  height: 1.5em;
+}
+
+footer h3 {
+  font-size: 1em;
+  color: var(--light-color);
+  text-align: center;
+}
+
+div.hover-tip {
+  position: absolute;
+  text-align: left;
+  padding: 0.5rem;
+  background: var(--light-color);
+  color: var(--dark-color);
+  border: 1px solid var(--offset-color);
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 1.3rem;
+}
+.hover-tip h4 {
+  margin-top: 0.33em;
+  margin-bottom: 0.33em;
+}
+
+div.tooltip-line {
+  position: absolute;
+  text-align: left;
+  padding: 8px;
+  margin-top: -20px;
+  background: #ffffff;
+  color: #313639;
+  border: 1px solid #313639;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.card {
+  background-color: var(--light-color);
+  border-radius: var(--radius);
+  margin: 2vmin;
+  padding: 1vmin;
+}
+
+.left .card {
+  margin-right: 1vmin;
+}
+
+.right .card {
+  margin-left: 1vmin;
+}
+
+.sub-card,
+.card h2 {
+  margin-top: 0;
+  padding-left: 0.5vmin;
+  overflow: hidden;
+  border-bottom: 0.25vh solid var(--offset-color);
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card svg {
+  width: 100%;
+}
+
+.country-map {
+  stroke: black;
+}
+
+.bubble text {
+  cursor: default;
+  pointer-events: none;
+}
+
+.hilight {
+  stroke: cyan !important;
+  stroke-width: 4px !important;
+}
+
+.left {
+  width: 45%;
+}
+
+.right {
+  width: 55%;
+}
+
+.axis.label {
+  text-anchor: middle;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke-width: 0.3vh;
+}
+
+.fade-line {
+  opacity: 0.25;
+}
+
+.focus-line {
+  stroke-width: 0.5vh !important;
+}
+
+.lda-topic-line circle {
+  stroke: var(--light-color);
+}
+
+.overlay {
+  fill: none;
+  stroke: none;
+  pointer-events: all;
+}
+
+.timeSlider {
+  position: absolute;
+}
+
+.no-mark {
+  list-style-type: none;
+}
+
+.unselected {
+  opacity: 0.2;
+}
+
+.selected {
+  opacity: 1;
+}
+
+#main {
+  display: inherit;
+  flex-direction: row;
+
+  margin: 1vmin;
+  padding: 1vmin;
+}
+
+/* Style the tab */
+#nav-tab {
+  overflow: hidden;
+  background-color: var(--offset-color);
+
+  list-style-type: none;
+  padding: 0.5vmin 2.5vw;
+  margin: 0;
+}
+
+/* Style the buttons that are used to open the tab content */
+#nav-tab li {
+  color: var(--light-color);
+  /*background-color: #57a3b8;*/
+  float: left;
+  cursor: pointer;
+  padding: 0.75vw 1vh;
+  margin: 0.5vmin;
+  border-radius: var(--radius);
+}
+
+/* Change background color of buttons on hover */
+#nav-tab li:hover,
+#nav-tab li.active {
+  background-color: var(--main-color);
+}
+
+#map-card {
+  padding: 0%;
+}
+
+#map-controls li {
+  float: left;
+  padding: 1% 2.5%;
+}
+
+#map #roads {
+  pointer-events: none;
+}
+
+#sentiment-line-control {
+  float: left;
+  padding: 1% 2.5%;
+}
+
+#minibar-yaxis g text {
+  font-family: monospace;
+}

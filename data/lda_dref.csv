@@ -1,0 +1,11 @@
+Topic,Name,Desc
+0,Transportation,
+1,Routes,Topic relates to information on status of routes and lines of St.Himark when message was posted.
+2,Shelter,Topic relates to shelters available in the neighborhood and status of building collpases. Also includes supplies for shelters.
+3,Water,"Topic relates to information on Water and other supply statuses (power, food, energy etc.). Keyword 'help'."
+4,Rumble,Topic relates to keyword 'Rumble' being used which suggests a quake based on messages.
+5,Roads,Topic relates to Road repairs and the status of bridges at the time the message was posted.
+6,Weather,Topic relates to information on Weather and safety in a location. Rain updates.
+7,Disaster,"Topic relates to keyword 'Disaster' which implies collapse, quake and suggests evacuation rumours."
+8,City Damage,Topic relates to information on damages to the infrastrucuture and properties in a location.
+9,Emergency,"Topic relates to any emergency like fire, powerplant incidents where immediate attention maybe required."

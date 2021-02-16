@@ -1,0 +1,85 @@
+location analysis ,location,Analysis,Sentiment,Percentage
+Other-Negative,Other,Negative,26,27.37
+Other-Neutral,Other,Neutral,29,30.53
+Other-Positive,Other,Positive,40,42.11
+Other-Total,Other,Total,95,100.00
+Broadview-Negative,Broadview,Negative,404,18.34
+Broadview-Neutral,Broadview,Neutral,915,41.53
+Broadview-Positive,Broadview,Positive,884,40.13
+Broadview-Total,Broadview,Total,2203,100.00
+Chapparal-Negative,Chapparal,Negative,217,17.60
+Chapparal-Neutral,Chapparal,Neutral,541,43.88
+Chapparal-Positive,Chapparal,Positive,475,38.52
+Chapparal-Total,Chapparal,Total,1233,100.00
+Cheddarford-Negative,Cheddarford,Negative,387,18.52
+Cheddarford-Neutral,Cheddarford,Neutral,883,42.25
+Cheddarford-Positive,Cheddarford,Positive,820,39.23
+Cheddarford-Total,Cheddarford,Total,2090,100.00
+Downtown-Negative,Downtown,Negative,924,19.58
+Downtown-Neutral,Downtown,Neutral,1938,41.08
+Downtown-Positive,Downtown,Positive,1856,39.34
+Downtown-Total,Downtown,Total,4718,100.00
+East Parton-Negative,East Parton,Negative,157,16.76
+East Parton-Neutral,East Parton,Neutral,378,40.34
+East Parton-Positive,East Parton,Positive,402,42.90
+East Parton-Total,East Parton,Total,937,100.00
+Easton-Negative,Easton,Negative,181,17.81
+Easton-Neutral,Easton,Neutral,417,41.04
+Easton-Positive,Easton,Positive,418,41.14
+Easton-Total,Easton,Total,1016,100.00
+Northwest-Negative,Northwest,Negative,517,18.67
+Northwest-Neutral,Northwest,Neutral,1213,43.81
+Northwest-Positive,Northwest,Positive,1039,37.52
+Northwest-Total,Northwest,Total,2769,100.00
+Oak Willow-Negative,Oak Willow,Negative,243,17.37
+Oak Willow-Neutral,Oak Willow,Neutral,508,36.31
+Oak Willow-Positive,Oak Willow,Positive,648,46.32
+Oak Willow-Total,Oak Willow,Total,1399,100.00
+Old Town-Negative,Old Town,Negative,467,20.07
+Old Town-Neutral,Old Town,Neutral,1006,43.23
+Old Town-Positive,Old Town,Positive,854,36.70
+Old Town-Total,Old Town,Total,2327,100.00
+Palace Hills-Negative,Palace Hills,Negative,436,18.20
+Palace Hills-Neutral,Palace Hills,Neutral,1113,46.45
+Palace Hills-Positive,Palace Hills,Positive,847,35.35
+Palace Hills-Total,Palace Hills,Total,2396,100.00
+Pepper Mill-Negative,Pepper Mill,Negative,154,17.00
+Pepper Mill-Neutral,Pepper Mill,Neutral,378,41.72
+Pepper Mill-Positive,Pepper Mill,Positive,374,41.28
+Pepper Mill-Total,Pepper Mill,Total,906,100.00
+Safe Town-Negative,Safe Town,Negative,276,19.15
+Safe Town-Neutral,Safe Town,Neutral,488,33.87
+Safe Town-Positive,Safe Town,Positive,677,46.98
+Safe Town-Total,Safe Town,Total,1441,100.00
+Scenic Vista-Negative,Scenic Vista,Negative,491,18.94
+Scenic Vista-Neutral,Scenic Vista,Neutral,1071,41.30
+Scenic Vista-Positive,Scenic Vista,Positive,1031,39.76
+Scenic Vista-Total,Scenic Vista,Total,2593,100.00
+Southton-Negative,Southton,Negative,783,19.65
+Southton-Neutral,Southton,Neutral,1594,40.00
+Southton-Positive,Southton,Positive,1608,40.35
+Southton-Total,Southton,Total,3985,100.00
+Southwest-Negative,Southwest,Negative,620,18.39
+Southwest-Neutral,Southwest,Neutral,1402,41.59
+Southwest-Positive,Southwest,Positive,1349,40.02
+Southwest-Total,Southwest,Total,3371,100.00
+Terrapin Springs-Negative,Terrapin Springs,Negative,305,16.64
+Terrapin Springs-Neutral,Terrapin Springs,Neutral,789,43.04
+Terrapin Springs-Positive,Terrapin Springs,Positive,739,40.32
+Terrapin Springs-Total,Terrapin Springs,Total,1833,100.00
+UNKNOWN-Negative,UNKNOWN,Negative,3,9.68
+UNKNOWN-Neutral,UNKNOWN,Neutral,23,74.19
+UNKNOWN-Positive,UNKNOWN,Positive,5,16.13
+UNKNOWN-Total,UNKNOWN,Total,31,100.00
+West Parton-Negative,West Parton,Negative,345,18.07
+West Parton-Neutral,West Parton,Neutral,788,41.28
+West Parton-Positive,West Parton,Positive,776,40.65
+West Parton-Total,West Parton,Total,1909,100.00
+Weston-Negative,Weston,Negative,900,19.39
+Weston-Neutral,Weston,Neutral,1935,41.69
+Weston-Positive,Weston,Positive,1806,38.91
+Weston-Total,Weston,Total,4641,100.00
+Wilson Forest-Negative,Wilson Forest,Negative,13,27.08
+Wilson Forest-Neutral,Wilson Forest,Neutral,17,35.42
+Wilson Forest-Positive,Wilson Forest,Positive,18,37.50
+Wilson Forest-Total,Wilson Forest,Total,48,100.00
